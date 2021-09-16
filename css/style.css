@@ -1,0 +1,43 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+p{
+  text-align: justify;
+}
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+header, footer{
+  height: 100px;
+  background-color: aqua;
+}
+
+main{
+  margin: 20px 0;
+  background-color: bisque;
+  min-height: 500px;
+}
+
+aside, section{
+  float: left;
+}
+
+.navbar, .widget{
+  width: 20%;
+  background-color: blue;
+}
+
+.main-content{
+  width: 56%;
+  margin: 0 2%;
+  background-color: brown;
+  padding: 0 10px;
+}
+
